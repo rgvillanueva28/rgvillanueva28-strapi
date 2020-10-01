@@ -13,9 +13,10 @@ module.exports = ({ env }) => ({
         database: config.database,
         username: config.user,
         password: config.password,
+        ssl: true,
       },
       options: {
-        ssl: false,
+        ssl: true,
       },
     },
   },
