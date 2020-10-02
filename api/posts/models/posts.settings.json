@@ -45,6 +45,10 @@
         "published",
         "draft"
       ]
+    },
+    "categories": {
+      "via": "posts",
+      "collection": "categories"
     }
   }
 }
